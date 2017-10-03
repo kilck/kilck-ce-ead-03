@@ -1,0 +1,49 @@
+<html><head>
+  <title>Avaliação de resultados</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container col-md-4 col-md-offset-4">
+      <h2>Gerar</h2>
+<form name="generator" method="post" action="saida.php"> 
+    <div class="form-group ">
+        <label>Nome do aluno:</label>
+            <input type="text" class="form-control" name="nomealuno" required="">
+        <label>Nome do disciplina:</label>
+            <input type="text" class="form-control" name="nomedisciplina" required="">
+        <label>Nome do curso:</label>
+            <input type="text" class="form-control" name="nomecurso" required="">
+        <label>Link para imagem:</label>
+            <input type="text" class="form-control" name="linkimg" >
+        <label>Nota da VA1 (0-15):</label>
+            <input type="text" class="form-control" name="va1" required="">
+        <label>Nota da VA2 (0-25):</label>
+            <input type="text" class="form-control" name="va2" required="">
+        <label>Nota da VA2 (0-35):</label>
+            <input type="text" class="form-control" name="va3" required="">
+        <label>Nota dos trabalhos (0-25):</label>
+            <input type="text" class="form-control" name="trabalhos" required="">
+        <label>Nome do(a) professor(a):</label>
+            <input type="text" class="form-control" name="nomeprofessor" required="">
+        <label>Nome do(a) coordenador(a):</label>
+            <input type="text" class="form-control" name="nomecoordenador" required="">    
+    </div>
+    
+    <div class="form-group row">
+        <div class="col-md-offset-5">
+          <button type="submit" class="btn btn-primary">Gerar</button>
+        </div>
+      </div>
+</form>
+ </div>
+     
+  </div>
+
+
+</body>
+</html>
